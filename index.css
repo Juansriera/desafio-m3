@@ -1,0 +1,531 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ESTILOS HEADER */
+
+.header {
+  width: 100%;
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px 17px 0 17px;
+  background-image: url("./img/puntitos.png");
+}
+
+@media (min-width: 769px) {
+  .header {
+    padding: 36px 84px 0 80px;
+  }
+}
+
+.menu {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .menu {
+    height: 109px;
+  }
+}
+
+.logo-header {
+  width: 55px;
+  height: 55px;
+}
+
+@media (min-width: 769px) {
+  .logo-header {
+    width: 109px;
+    height: 109px;
+  }
+}
+
+.img-menu {
+  height: 32px;
+  width: 36px;
+}
+
+@media (min-width: 769px) {
+  .img-menu {
+    display: none;
+  }
+}
+
+.menu-desplegado {
+  display: none;
+}
+
+@media (min-width: 769px) {
+  .menu-desplegado {
+    display: flex;
+    height: 28px;
+    width: 428px;
+    justify-content: space-between;
+  }
+}
+
+.apartados {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: black;
+}
+
+.welcom {
+  height: 454px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .welcom {
+    height: 400px;
+    flex-direction: row;
+    align-items: initial;
+  }
+}
+
+.titulo-welcom {
+  font-family: "Open Sans";
+  font-size: 48px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 48px;
+  letter-spacing: -1px;
+  width: 291px;
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .titulo-welcom {
+    text-align: left;
+  }
+}
+
+.img-welcom {
+  width: 300px;
+  height: 300px;
+}
+
+@media (min-width: 769px) {
+  .img-welcom {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+/* ESTILOS MAIN */
+
+.main {
+  background-color: #141414;
+  width: 100%;
+  height: 538px;
+  padding: 55px 0;
+}
+
+@media (min-width: 769px) {
+  .main {
+    padding: 132px 0;
+  }
+}
+
+.contenedor-main {
+  height: 415px;
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+@media (min-width: 769px) {
+  .contenedor-main {
+    height: 224px;
+    width: 833px;
+    flex-direction: row-reverse;
+  }
+}
+
+.informacion {
+  height: 278px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .informacion {
+    width: 532px;
+    height: 224px;
+    align-items: initial;
+  }
+}
+
+.titulo-main {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #fafafa;
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .titulo-main {
+    line-height: 43.58px;
+    text-align: initial;
+  }
+}
+
+.texto {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  color: #fafafa;
+}
+
+@media (min-width: 769px) {
+  .texto {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+
+.img-main {
+  width: 80px;
+  height: 80px;
+}
+
+@media (min-width: 769px) {
+  .img-main {
+    width: 211px;
+    height: 211px;
+  }
+}
+
+/* ESTILOS SECCIÓN UNO */
+
+.seccion-uno {
+  width: 100%;
+  height: 1375px;
+  padding: 70px 0;
+}
+
+@media (min-width: 769px) {
+  .seccion-uno {
+    height: 604px;
+    padding: 59px 86px;
+  }
+}
+
+.contenedor-seccion-uno {
+  height: 1239px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .contenedor-seccion-uno {
+    height: 437px;
+  }
+}
+
+.titulo-seccion-uno {
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #2c2c2c;
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .titulo-seccion-uno {
+    font-size: 48px;
+  }
+}
+
+.grupos-uno {
+  height: 1135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .grupos-uno {
+    height: 307px;
+    width: 100%;
+    flex-direction: row;
+  }
+}
+
+.grupo-seccion-uno {
+  height: 307px;
+  width: 262px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+.img-grupo-seccion-uno {
+  width: 138px;
+  height: 128.03px;
+}
+
+.titulo-grupo-seccion-uno {
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 28px;
+  text-align: center;
+  color: #2c2c2c;
+}
+
+.texto-dos {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 19px;
+  color: #2c2c2c;
+  text-align: center;
+}
+
+/* ESTILOS SECCIÓN DOS */
+
+.seccion-dos {
+  background-color: #141414;
+  width: 100%;
+  height: 660px;
+  color: white;
+  padding: 70px 0;
+  margin: 0;
+}
+
+@media (min-width: 769px) {
+  .seccion-dos {
+    padding: 116px;
+  }
+}
+
+.contenedor-seccion-dos {
+  height: 521px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (min-width: 769px) {
+  .contenedor-seccion-dos {
+    height: 428px;
+    width: 724px;
+    flex-direction: row;
+    align-items: initial;
+    margin: 0 auto;
+  }
+}
+
+.titulo-contacto {
+  margin-bottom: 37px;
+  margin: 0;
+  font-family: "Open Sans";
+  font-weight: bold;
+  font-size: 32px;
+}
+
+@media (min-width: 769px) {
+  .titulo-contacto {
+    font-size: 48px;
+  }
+}
+
+.contactos {
+  height: 428px;
+  width: 335px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .contactos {
+    width: 376px;
+  }
+}
+
+.contenedor-contacto {
+  width: 335px;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .contenedor-contacto {
+    width: 376px;
+  }
+}
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.label {
+  font-size: 13px;
+  font-family: "Roboto";
+  padding-bottom: 9px;
+}
+
+.input-nombre {
+  height: 45px;
+  border: 3px solid #2c2c2c;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+
+.textarea {
+  height: 113px;
+  border: 3px solid #2c2c2c;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+
+.button {
+  height: 45px;
+  width: 335px;
+  background-color: #ffd953;
+  border-radius: 4px;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (min-width: 769px) {
+  .button {
+    width: 376px;
+  }
+}
+
+/* ESTILOS FOOTER */
+
+.footer {
+  background-color: #dbdbdb;
+  width: 100%;
+  height: 493px;
+  padding: 53px 16px;
+}
+
+@media (min-width: 769px) {
+  .footer {
+    height: 346px;
+    padding: 98px 215px 95px 80px;
+    background-image: url("./img/puntitos.png");
+  }
+}
+
+.contenedor-footer {
+  height: 327px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .contenedor-footer {
+    height: 156px;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.logo-empresa-footer {
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 769px) {
+  .logo-empresa-footer {
+    align-items: center;
+  }
+}
+
+.img-logo-footer {
+  width: 80px;
+  height: 80px;
+}
+
+@media (min-width: 769px) {
+  .img-logo-footer {
+    width: 112px;
+    height: 112px;
+  }
+}
+
+.copy {
+  font-family: "Roboto";
+  font-size: 13px;
+}
+
+.resdes-sociales {
+  height: 138px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.texto-redes {
+  font-family: "Roboto";
+  font-size: 16px;
+  padding-left: 8px;
+}
+
+.instagram,
+.linkedin,
+.github {
+  display: flex;
+  align-items: center;
+  padding-bottom: 29px;
+}
+
+.github {
+  padding-bottom: 0;
+}
+
+.img-redes {
+  width: 29px;
+  height: 29px;
+}
